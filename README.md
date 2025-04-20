@@ -1,6 +1,6 @@
-## Common patterns
+# Common patterns
 
-# Prefix sum
+## Prefix sum
 
 When we want to calculate sum of a sub array, we can optimize it using prefix
 sum array
@@ -15,7 +15,7 @@ we can find sum of all elements between i and j by
 psa[j] - psa[i-1]
 ```
 
-# 2 Pointers
+## 2 Pointers
 
 Sometimes some sub array problems can be solved with this, where we scan the
 array with pointers starting at the end and coming towards each other or start
