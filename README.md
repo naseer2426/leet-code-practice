@@ -26,6 +26,8 @@ on a condition that optimizes what we need
 - longest palindrome sub array
 - longest sub str no repeats
 - palindrome
+- 3sum
+- 3sum_closest
 
 ## Sliding window
 
