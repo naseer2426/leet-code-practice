@@ -28,6 +28,7 @@ on a condition that optimizes what we need
 - palindrome
 - 3sum
 - 3sum_closest
+- 4sum
 
 ## Sliding window
 
@@ -56,6 +57,8 @@ stack to implement
 Essentially same as DFS but more broadly when we have to find the best choice
 along a decision tree and we calculate till the end and find the outcome and
 backtrack
+
+- letter_combinations
 
 ## Priority Queue
 
