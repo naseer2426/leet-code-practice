@@ -70,6 +70,8 @@ backtrack
 Most top k problems should use this pattern, usually use a min or max heap to
 implement solutions
 
+- top_k_frequent
+
 ## Dynamic Programming
 
 I am yet to find someone who understands this crap. Basically if can break down
