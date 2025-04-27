@@ -48,6 +48,8 @@ dividing the list into chunks
 When a graph is searched from root, level by level till we reach the leaf nodes.
 Usually use a queue for implementing
 
+- open_lock
+
 ## DFS
 
 When a graph is searched path by path all the way till leaf nodes, usually use
