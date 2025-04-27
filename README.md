@@ -51,6 +51,7 @@ Usually use a queue for implementing
 - open_lock
 - coin_change
 - combination_sum
+- shortest_distance_for_all_buildings
 
 ## DFS
 
