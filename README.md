@@ -49,6 +49,7 @@ When a graph is searched from root, level by level till we reach the leaf nodes.
 Usually use a queue for implementing
 
 - open_lock
+- coin_change
 
 ## DFS
 
@@ -78,6 +79,8 @@ till the end. Bottom up is when we start from the most basic sub problem and
 build up to what we want. There is also a concept of memoizing the computation
 for a particular step so we dont need to redo it if its involved in the solution
 of multiple sub steps. I hate this.
+
+- coin_change
 
 ## Follow the instructions problems
 
