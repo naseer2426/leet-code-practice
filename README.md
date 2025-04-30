@@ -30,6 +30,7 @@ on a condition that optimizes what we need
 - 3sum_closest
 - 4sum
 - remove_nth_from_end
+- character_replacement
 
 ## Sliding window
 
