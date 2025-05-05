@@ -1,3 +1,20 @@
+'''
+My initial intuition for this problem was if I could maintain a list that represented the order of
+access of all keys in the cache, and when a key was accessed, I could move the accessed key to the front
+and move all other elements 1 step ahead, the last element of this list will be the least recently used
+
+My issue was I thought implementing such a list would be an o(n) operaton because of the step to move all
+other keys 1 step ahead
+
+What I had missed is that such a list could be implemented with a doubly linked list.
+
+Instead the solution I created was to use a min heap to keep track of the least recently used element.
+This way works but is overkill and way too inefficient compared to the doubly linked list solution
+
+Good python example for doubly linked list solution: https://leetcode.com/problems/lru-cache/solutions/6715302/my-solution
+'''
+
+
 class MinHeap(object):
     def __init__(self):
         self.a = []
