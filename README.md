@@ -106,3 +106,4 @@ These are the problems that just have some elegant solution that I cant really
 place it into any pattern
 
 - lexocographically_smallest_array
+- next_permutation
