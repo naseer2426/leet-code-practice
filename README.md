@@ -59,6 +59,9 @@ Usually use a queue for implementing
 When a graph is searched path by path all the way till leaf nodes, usually use
 stack to implement
 
+- partitions
+- generate_paranthesis
+
 ## Backtracking
 
 Essentially same as DFS but more broadly when we have to find the best choice
