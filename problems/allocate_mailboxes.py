@@ -1,4 +1,8 @@
 class Solution:
+    '''
+        I would never have found this solution, solved it after watching 
+        https://www.youtube.com/watch?v=94GAKvraBYI 
+    '''
     def minDistance(self, houses,k):
         houses.sort()
         mem = {}
