@@ -15,6 +15,32 @@ we can find sum of all elements between i and j by
 psa[j] - psa[i-1]
 ```
 
+## Substring that satisfies condition
+
+You can use this pattern where the condition can be checked for in 0(1) when you
+add or remove a character from the string. We solve this 2 pointer approach.
+Remember growing r grows the subsctring and growing l shrinks it. Deciding to
+grow a certain pointer will depend on if we want the longest substring or the
+smallest.
+
+### Largest substring
+
+You start off with l and r = 0,
+
+- keep growing r as long as condition is met, if not then
+- keep moving l ahead until the condition is met.
+
+Keep doing this and keep track of the highest r-l+1 where the condition is met
+
+### Shortest substring
+
+You start off with l and r = 0,
+
+- keep growing r as long as condition is not met, if condition is met then
+- keep growing l as long as condition is met
+
+Keep doing this and keep track of the lowest r-l+1 where the condition is met
+
 ## 2 Pointers
 
 Sometimes some sub array problems can be solved with this, where we scan the
