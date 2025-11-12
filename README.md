@@ -116,6 +116,16 @@ of multiple sub steps. I hate this.
 
 - coin_change
 
+## Monotonic Stack
+
+We create a stack that is monotonically increasing or decreasing. We keep adding
+elements until the increase/decreasing condition is met. Once adding a new
+element breaks the condition, pop the stack until we can add the component.
+These strategy is usually used to find first greater/smaller element
+after/before an element in an array
+
+- daily_temp
+
 ## Follow the instructions problems
 
 I dont consider these problems coding problems because time/space complexity is
